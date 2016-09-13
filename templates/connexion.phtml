@@ -6,7 +6,7 @@
         <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
 		<header>
@@ -18,17 +18,20 @@
 			</div>
 		</header>
 		
-		<div class="corps">
-			<a href="signin/"><button type="button" id="signIn" class="btn btn-primary btn-lg">Connexion</button></a>
-			<a href="signup/"><button type="button" id="signUp" class="btn btn-primary btn-lg">Enregistrez-vous</button></a>
+		<div class="container2">
+			<form class="form-signin">
+				<h2 class="form-signin-heading">Connexion</h2></br>
+				<input type="email" id="email" class="form-control" placeholder="Adresse Email" required="" autofocus="">
+				<input type="password" id="password" class="form-control" placeholder="Mot de passe" required=""></br>
+				<button id="connexion" class="btn btn-primary btn-lg" type="submit">Sign in</button>
+			</form>
 		</div>
 
 		<footer>
 			<div class="gauche">
 				<h4 class="footTitle">A propos</h4>
 				<p>
-					Cette application a Ã©tÃ© crÃ©Ã©e pour les dÃ©butants en dÃ©veloppement web.</br>
-					
+					Cette application a été créée pour les débutants en développement web.</br>
 				</p>
 			</div>
 			<div class="milieu">
